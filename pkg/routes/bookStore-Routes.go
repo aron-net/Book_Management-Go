@@ -2,8 +2,7 @@ package routes
 
 import (
 	"github.com/julienschmidt/httprouter"
-	"github.com/aron-helu/Book_Mangement-Go/pkg/controllers"
-	"net/http"
+	"github.com/aron-helu/Book_Management-Go/pkg/controllers"
 )
 
 var RegisterBookStoreRoutes = func(router *httprouter.Router) {
