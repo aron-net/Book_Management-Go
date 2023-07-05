@@ -10,6 +10,14 @@
 - Update an existing book
 - Delete a book
 
+## Dependencies
+
+> This project uses the following external dependencies:
+
+- httprouter - A lightweight HTTP request router.
+- gorm - A powerful ORM library for Go.
+- MySQL dialect for GORM - MySQL database driver for GORM.
+
 ## Getting Started
 
 > To run the application locally, follow these steps:
@@ -78,13 +86,6 @@ The server will start running on http://localhost:8000.
   - ```id (string): ``` The ID of the book.
 - Response: ```Returns the updated book collection as a JSON array.```
 
-## Dependencies
-
-> This project uses the following external dependencies:
-
-- httprouter - A lightweight HTTP request router.
-- gorm - A powerful ORM library for Go.
-- MySQL dialect for GORM - MySQL database driver for GORM.
 ## Example Usage
 > Here's an example of how you can use cURL to interact with the book API:
 
