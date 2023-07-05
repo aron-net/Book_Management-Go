@@ -1,4 +1,4 @@
-# Movie API
+# Book Managment
 
 > This is a simple movie API that allows you to perform CRUD operations on movies using HTTP requests. The API is built with Go and uses the `github.com/julienschmidt/httprouter` package for routing.
 
